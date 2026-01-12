@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html>
-	<head><title>Products Page</title></head>
-
-	<body>
-		<h1>Products</h1>
-		<ul>
-			<li>Virus's Pen</li>
-			<li>John Wick's Killer Pencil</li>
-			<li>Doremon's Pocket</li>
-			<li>Tony Stark's Arc Reactor</li>
-		</ul>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShopEasy – Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <h1>Products</h1>
+  </header>
+  <main>
+    <input id="search-box" type="text" placeholder="Search products..." />
+    <ul id="product-list">
+      <li data-name="Wireless Headphones">Wireless Headphones – ₹1,499</li>
+      <li data-name="Mechanical Keyboard">Mechanical Keyboard – ₹3,299</li>
+      <li data-name="USB-C Hub">USB-C Hub – ₹899</li>
+      <li data-name="Webcam HD">Webcam HD – ₹2,099</li>
+      <li data-name="Mouse Pad XL">Mouse Pad XL – ₹349</li>
+    </ul>
+  </main>
+  <script src="search.js"></script>
+  <footer><p>&copy; 2026 ShopEasy</p></footer>
+</body>
 </html>
