@@ -6,3 +6,9 @@ nav a { color: #e0e0e0; margin-right: 1rem; text-decoration: none; }
 nav a:hover { color: #fff; text-decoration: underline; }
 main { padding: 2rem; }
 footer { text-align: center; padding: 1rem; background: #f4f4f4; }
+
+/* bugfix: nav links were invisible on small screens */
+@media (max-width: 600px) {
+  nav { display: flex; flex-direction: column; gap: 0.5rem; }
+  nav a { display: block; }
+}
