@@ -1,0 +1,17 @@
+{
+  "name": "shopeasy",
+  "version": "0.9.0",
+  "description": "Lightweight e-commerce web app",
+  "scripts": {
+    "test": "node tests/search.test.js",
+    "lint": "eslint frontend/ backend/ --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express": "^4.18.3"
+  }
+}
