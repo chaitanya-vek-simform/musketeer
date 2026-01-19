@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const items = document.querySelectorAll('#product-list li');
 
   box.addEventListener('input', () => {
-    const query = box.value.toLowerCase();
+    const query = sanitize(box.value).toLowerCase();
     items.forEach(li => {
       const name = li.dataset.name.toLowerCase();
       li.style.display = name.includes(query) ? '' : 'none';
