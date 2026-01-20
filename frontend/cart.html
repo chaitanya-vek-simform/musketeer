@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShopEasy – Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <h1>Your Cart</h1>
+  </header>
+  <main>
+    <table id="cart-table">
+      <thead><tr><th>Item</th><th>Qty</th><th>Price</th><th>Action</th></tr></thead>
+      <tbody id="cart-body"></tbody>
+      <tfoot><tr><td colspan="2">Total</td><td id="cart-total">₹0</td><td></td></tr></tfoot>
+    </table>
+    <button id="checkout-btn">Proceed to Checkout</button>
+  </main>
+  <script src="cart.js"></script>
+  <footer><p>&copy; 2026 ShopEasy</p></footer>
+</body>
+</html>
