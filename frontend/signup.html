@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShopEasy – Sign Up</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav><a href="index.html">Home</a> <a href="login.html">Login</a></nav>
+    <h1>Create Account</h1>
+  </header>
+  <main>
+    <form id="signup-form" action="/api/signup" method="POST">
+      <label for="name">Full Name</label>
+      <input id="name" type="text" name="name" required placeholder="Jane Doe" />
+      <label for="su-email">Email</label>
+      <input id="su-email" type="email" name="email" required placeholder="you@example.com" />
+      <label for="su-password">Password</label>
+      <input id="su-password" type="password" name="password" required minlength="8" />
+      <button type="submit">Create Account</button>
+    </form>
+  </main>
+  <script src="auth.js"></script>
+  <footer><p>&copy; 2026 ShopEasy</p></footer>
+</body>
+</html>

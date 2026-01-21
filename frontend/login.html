@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShopEasy – Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <h1>Login</h1>
+  </header>
+  <main>
+    <form id="login-form" action="/api/login" method="POST">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required placeholder="you@example.com" />
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" required placeholder="••••••••" />
+      <button type="submit">Log In</button>
+    </form>
+    <p><a href="signup.html">Don't have an account? Sign up</a></p>
+  </main>
+  <script src="auth.js"></script>
+  <footer><p>&copy; 2026 ShopEasy</p></footer>
+</body>
+</html>
