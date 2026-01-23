@@ -1,6 +1,6 @@
 {
   "name": "shopeasy",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Lightweight e-commerce web app",
   "scripts": {
     "test": "node tests/search.test.js",
