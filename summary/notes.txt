@@ -1,0 +1,23 @@
+----------------Date: 04-02-2026---------------------------------------------
+1. Linux Boot sequence: https://www.linuxjournal.com/content/linux-boot-process-best-geeks-know-it
+2. passwd vs shadow file
+3. Unix Domain Sockets
+4. lvm and logical groups maintained on, on premises servers 
+5. rto and rpo related to boot time difference between a vm and a container 
+6. blastradius
+7. various file systems in linux and how do they grow and do we need to reboot the system and which file system provide file encryption of disks
+8. Msdos vs linux
+9. why enterprises prefer vm over containers and their tradeoffs
+10. how to not allow group to delete files but allow them to add files
+11. sticky bit and suid
+
+---------------Date: 05-02-2026----------------------------------------------
+1. What is a partition 
+2. Hard link of a file across partition 
+3. Infinite linking: Can we generate a link of a directory? 
+4. If we generate 4 soft links and 4 hard links of a 1KB file do they consume more memory? 
+5. If an application has already generated 5GB file and it is going to add more 5GB of data in the already existing 5GB file, and if the file is delete using rm command. Would the application crash? Would the next 5GB data will generate and save in the disk? 
+6. If a file has 600 permission, and it's soft link has 777 permission would you be able to access the file or not?   
+7. What is the difference between ; and || ? Can be found by including single pipe ( | ) after double pipes ( || ).
+
+---------------Date: 00-00-2026----------------------------------------------
