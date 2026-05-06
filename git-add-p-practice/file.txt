@@ -1,3 +1,4 @@
-Line 1
+Line 1 modified
 Line 2
-Line 3
+Line 3 modified
+New Line 4
